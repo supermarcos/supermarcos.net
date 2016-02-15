@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Marcos Morales Rodrigo web site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Marcos Morales Rodrigo">
+    <title>Marcos Morales Rodrigo</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Marcos' web site">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="libs/mdl/css/material.min.css">
+    <link rel="stylesheet" href="libs/material-modal/css/material-modal.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-color-text--white mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header mdl-color-text--white">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Marcos Morales Rodrigo</span>
+          <div class="mdl-layout-spacer"></div>
+          <a href="http://cv.supermarcos.net/pdf" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons">file_download</i>
+          </a>
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="hdrbtn">
+            <li class="mdl-menu__item demo-avatar-dropdown modal__trigger" data-modal="#modal_personal_details"><i class="material-icons menu-icon-space">perm_contact_calendar</i>Personal details</li>
+            <li class="mdl-menu__item demo-avatar-dropdown modal__trigger" data-modal="#modal_contact_details"><i class="material-icons menu-icon-space">mail</i>Contact details</li>
+            <a href="http://cv.supermarcos.net/json" target="_blank" style="text-decoration: none;"><li class="mdl-menu__item demo-avatar-dropdown"><i class="material-icons menu-icon-space">code</i>JSON format</li></a>
+          </ul>
+        </div>
+      </header>
+      <div class="demo-drawer mdl-layout__drawer dark_blue mdl-color-text--blue-grey-50">
+        <header class="demo-drawer-header">
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon togle_drawer" onclick="togle_drawer();">
+            <i class="material-icons">close</i>
+          </button>
+          <img src="images/mrc.png" class="demo-avatar">
+        </header>
+        <nav class="demo-navigation mdl-navigation">
+          <a class="mdl-navigation__link" href="#biography" onclick="togle_drawer();"><i class="material-icons" role="presentation">public</i>Biography</a>
+          <a class="mdl-navigation__link" href="#education" onclick="togle_drawer();"><i class="material-icons" role="presentation">school</i>Education</a>
+          <a class="mdl-navigation__link" href="#skills" onclick="togle_drawer();"><i class="material-icons" role="presentation">verified_user</i>Skills</a>
+          <a class="mdl-navigation__link" href="#experience" onclick="togle_drawer();"><i class="material-icons" role="presentation">work</i>Experience</a>
+          <a class="mdl-navigation__link" href="#references" onclick="togle_drawer();"><i class="material-icons" role="presentation">forum</i>References</a>
+        </nav>
+      </div>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid mdl-cell--8-col text-justified">
+            <a name="biography"></a><h3><i class="mdl-color-text--blue-grey-800 material-icons h3-icon-space">public</i>Biography</h3>
+              <p>
+                Experienced and skilled IT and software developer. I can describe myself as a highly polivalent IT professional, serious with my work, reliable, motivated, greatly experienced and skilled with superior attention to detail and proficent comunication skills to handle all the skateholder intercomunication needs.
+              </p>
+              <p>
+                I have been working in many different industries, companies and businesses  adapting myself, acquiring new knowledge during the time and always, very soon,  disrupting the place and methodologies to push it further with my analytical,  creative and fresh point of view.
+              </p>
+              <p>
+                The IT industry has been my natural environment for many years and that has given me the experience and ability to create, improve and learn always the cutting edge technologies using the most modern methodologies, tools and skills.
+              </p>
+              <p>
+                I am the kind of worker that will always achieve results, aware about the deadlines, in the best way possible whenever it is inside of a team, leading the team or by myself. Obsessed with the perfection, scalability and usability of the final product and project I am involved, giving the final user the best possible service.
+              </p>
+          </div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid mdl-cell--8-col text-justified">
+            <a name="education"></a><h3><i class="mdl-color-text--blue-grey-800 material-icons h3-icon-space">school</i>Education</h3>
+              <p>
+                <ul class="list">
+                  <li>
+                    <div>
+                      <span class="date">2015</span>
+                      <span class="area">Developer Programmer Advanced Diploma (ANZSCO Code 261312)</span>
+                    </div>
+                    <div>
+                      <span class="institution">Australia Computer Society</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2015</span>
+                      <span class="area">Data scientist, data analysis with R</span>
+                    </div>
+                    <div>
+                      <span class="institution">Coursera (John Hopkins University)</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2012</span>
+                      <span class="area">UI/UX and Front End development</span>
+                    </div>
+                    <div>
+                      <span class="institution">Indra Software Labs, SL</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2011</span>
+                      <span class="area">Android Mobile Development Master Course</span>
+                    </div>
+                    <div>
+                      <span class="institution">Master D (online platform)</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2010</span>
+                      <span class="area">Java SE and J2EE</span>
+                    </div>
+                    <div>
+                      <span class="institution">Triparty Foundation</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2010</span>
+                      <span class="area">MVC ith ASP.NET</span>
+                    </div>
+                    <div>
+                      <span class="institution">GAE Informática, SA</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2009</span>
+                      <span class="area">Ms SQL Server Administration and Tunning</span>
+                    </div>
+                    <div>
+                      <span class="institution">GAE Informática, SA</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2008</span>
+                      <span class="area">Ms Windows Workstation and Server Administration</span>
+                    </div>
+                    <div>
+                      <span class="institution">GAE Informática, SA</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2007</span>
+                      <span class="area">Payroll and payslip calculation</span>
+                    </div>
+                    <div>
+                      <span class="institution">Triparty Foundation</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2006</span>
+                      <span class="area">Linux System Administration</span>
+                    </div>
+                    <div>
+                      <span class="institution">Linux ORG</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2005</span>
+                      <span class="area">3D Design and development with 3D Studio Max</span>
+                    </div>
+                    <div>
+                      <span class="institution">Professional Training and Skills Don Benito</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2004</span>
+                      <span class="area">Bintec/Avaya router configuration and administration</span>
+                    </div>
+                    <div>
+                      <span class="institution">SET ici, SL</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="date">2003</span>
+                      <span class="area">SELT@ PBX/IPX VoIP / Asterisk configuration and administration</span>
+                    </div>
+                    <div>
+                      <span class="institution">SET ici, SL</span>
+                    </div>
+                  </li>
+                </ul>
+              </p>
+          </div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid mdl-cell--8-col text-justified">
+            <a name="skills"></a><h3><i class="mdl-color-text--blue-grey-800 material-icons h3-icon-space">verified_user</i>Skills</h3>
+            <p>
+              <ul class="list">
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Programming languages
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>HTML / HTML5 / XHTML</li>
+                      <li>CSS / CSS3</li>
+                      <li>JavaScript</li>
+                      <li>SQL / T-SQL</li>
+                      <li>Python</li>
+                      <li>Basic / Visual Basic 6 / Visual FoxPro 7</li>
+                      <li>Vb.NET / C#.NET</li>
+                      <li>PHP / ASP / ASP.NET</li>
+                      <li>Java / JSE / J2EE</li>
+                      <li>C / C++</li>
+                      <li>R</li>
+                      <li>Bash and Shell</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Web site and web app development (full stack)
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Server side rendering</li>
+                      <li>Client side RIA</li>
+                      <li>Two way binding</li>
+                      <li>Reactive techniques</li>
+                      <li>Templating</li>
+                      <li>Templating</li>
+                      <li>Responsive design</li>
+                      <li>Material design</li>
+                      <li>Touch friendly design</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Technologies, Frameworks and SDKs
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>.NET Framework</li>
+                      <li>DevXpress</li>
+                      <li>Android SDK</li>
+                      <li>jQuery / ExtJS</li>
+                      <li>OAuth / OAuth2</li>
+                      <li>Knockout / Backbone</li>
+                      <li>Angular / Angular2</li>
+                      <li>ReactJS</li>
+                      <li>Bootstrap / MDL</li>
+                      <li>RDBMS / ODBMS / NoSQL</li>
+                      <li>Phonegap / Cordova / Ionic / Framework7</li>
+                      <li>SOAP / XML / JSON / WebApp2</li>
+                      <li>Jinja / Ferris</li>
+                      <li>Nodiajs / npm / pip</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Desktop development
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Ms Windows</li>
+                      <li>Linux</li>
+                      <li>Mac</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Mobile development
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Android</li>
+                      <li>Windows Phone</li>
+                      <li>iOS</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Data scientist, data analysis and data warehousing
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>SQL / T-SQL</li>
+                      <li>Stored Procedures</li>
+                      <li>Monitoring tools</li>
+                      <li>SQLite</li>
+                      <li>MySQL / MariaDB</li>
+                      <li>SQL Server</li>
+                      <li>XML / JSON</li>
+                      <li>SpreadSheets</li>
+                      <li>Plain and Sequential files</li>
+                      <li>R analysis</li>
+                      <li>Plot presentations</li>
+                      <li>Python and analysis (PANDAS)</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    IDEs and version control tools
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Ms Visual Studio</li>
+                      <li>JetBrains / Eclipse</li>
+                      <li>PowerShell</li>
+                      <li>Sublime / Atom</li>
+                      <li>GitHub / BitBucket</li>
+                      <li>Jira</li>
+                      <li>CVS / SVN</li>
+                      <li>Mercurial / Git</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Methodologies
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Waterfall</li>
+                      <li>Agile / SCRUM</li>
+                      <li>Project management / Prince2</li>
+                      <li>Team management</li>
+                      <li>Feature Driven Development</li>
+                      <li>Test Driven Development</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Server admin and Database admins systems
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Ms Windows</li>
+                      <li>Linux / Unix</li>
+                      <li>Mac OS</li>
+                      <li>Novell Netware</li>
+                      <li>Active Directory / ldap</li>
+                      <li>CouchDB / VistaDB / MongoDB / ndb</li>
+                      <li>Big Query / NoSQL</li>
+                      <li>LAMP / WAMP / MEAN</li>
+                      <li>Apache / nGinx / ISS</li>
+                      <li>Docker</li>
+                      <li>Virtualization</li>
+                      <li>MySQL / MariaDB</li>
+                      <li>SQLite / Ms SQL Server</li>
+                  </div>
+                </li>
+                <li class="skillsgroup">
+                  <div class="skillsarea">
+                    Hardware and networking skills
+                  </div>
+                  <div class="skills">
+                    <ul class="list">
+                      <li>Hardware config, admin and fixing</li>
+                      <li>Architecture design</li>
+                      <li>Networking</li>
+                      <li>Cable and topology structures</li>
+                      <li>VoIP / Phone systems</li>
+                      <li>Router configuration</li>
+                      <li>Firewall</li>
+                      <li>VPN</li>
+                      <li>Domain config and admin</li>
+                  </div>
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid mdl-cell--8-col text-justified">
+            <a name="experience"></a><h3><i class="mdl-color-text--blue-grey-800 material-icons h3-icon-space">work</i>Experience</h3>
+              <p>
+                <ul class="list">
+                  <li>
+                    <div>
+                      <span class="startDate">Feb 2013</span>
+                      <span class="endDate">current</span>
+                      <span class="company">Focus Products, PTY/LTD</span>
+                    </div>
+                    <div>
+                      <span class="position">Software and Web developer / Module Analyst and Leader</span>
+                      <span class="summary">Leading several modules within the huge CRM/ERP system, I analysed and developed parts as virtual printers, water analysers, reporting and statistics systems, on field service systems, others tasks performed include data analysing, data migration, remote assistance and end user support.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="startDate">Oct 2012</span>
+                      <span class="endDate">Feb 2013</span>
+                      <span class="company">Freelance and SmoothSymmetry</span>
+                    </div>
+                    <div>
+                      <span class="position">Head developer</span>
+                      <span class="summary">I was responsible for the design, develop, deployment and maintenance of several web sites, SEO strategies and hosting configuration.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="startDate">Aug 2011</span>
+                      <span class="endDate">Sep 2012</span>
+                      <span class="company">Indra Software Labs, SL</span>
+                    </div>
+                    <div>
+                      <span class="position">Seniior Software Developer / Software Architect / UX/UI Designer</span>
+                      <span class="summary">At the begining I was only a Senior Developer, but soon I was moved to the UX/UI core team for the whole factory (400+ employees), in a couple of months I was promoted to help, advice and bring support for architecture design and develop for the whole factory in different projects.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="startDate">May 2006</span>
+                      <span class="endDate">Aug 2011</span>
+                      <span class="company">GAE Informática, SA</span>
+                    </div>
+                    <div>
+                      <span class="position">Customer Support / Senior Software Developer / Analyst and Project leader</span>
+                      <span class="summary">Leading the Software development for professional services as payroll and payslip calculation, taxation, Social Security taxation and grants, as well as design and develop of many internal systems for version control, package deployment and support tracking systems through our own ticketing system.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="startDate">Mar 2003</span>
+                      <span class="endDate">May 2006</span>
+                      <span class="company">SET ici, SL</span>
+                    </div>
+                    <div>
+                      <span class="position">Field technician / Networking / Junior Software Developer</span>
+                      <span class="summary">Network instalation and administration, server configuration and admin, System installation and support and heaps of different tailored software development for factories (mainly food process) designing traceability systems for lots, bar codes and health requirements.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <span class="startDate">Jun 2002</span>
+                      <span class="endDate">Feb 2003</span>
+                      <span class="company">PuntoNET Informática, SL</span>
+                    </div>
+                    <div>
+                      <span class="position">Hardware / Field technician / Sysadmin / Shop and Customer care</span>
+                      <span class="summary">POS sale, post sale support, on-site support, remote support, customer relationship, system administration, network deployment and maintenance, hardware and device repair...</span>
+                    </div>
+                  </li>
+                </ul>
+              </p>
+          </div>
+          <div class="demo-content margin-bottom mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid mdl-cell--8-col text-justified">
+            <a name="references"></a><h3><i class="mdl-color-text--blue-grey-800 material-icons h3-icon-space">forum</i>References</h3>
+              <p>
+                <ul class="list">
+                  <li></li>
+                </ul>
+              </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <a href="mailto:supermarcos@gmail.com" target="_blank" id="send" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+        <i class="material-icons">mail</i>
+    </a>
+
+<!-- MODAL DIALOGS -->
+
+    <div id="modal_personal_details" class="modal modal__bg">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__header">
+              <div class="modal__title">
+                <h2 class="modal__title-text">Personal details</h2>
+              </div>
+            </div>
+            <div class="modal__text">
+              <p>
+                <ul class="demo-list">
+                  <li class="nowrap">
+                    <span class="mdl-color-text--grey-800"><b>Full name:</b> Marcos Morales Rodrigo</span>
+                  </li>
+                  <li class="nowrap">
+                    <span class="mdl-color-text--grey-800"><b>Profession:</b> IT and Software Developer</span>
+                  </li>
+                  <li class="nowrap">
+                    <span class="mdl-color-text--grey-800"><b>Nationality:</b> Spanish</span>
+                  </li>
+                  <li class="nowrap">
+                    <span class="mdl-color-text--grey-800"><b>Visa Status:</b> Australian Permanent Resident</span>
+                  </li>
+                  <li class="nowrap">
+                    <span class="mdl-color-text--grey-800"><b>Languages:</b>
+                      <div>
+                        <ul class="list">
+                          <li>Spanish (native)</li>
+                          <li>English (Advanced C1, 7.5)</li>
+                          <li>Portuguese (basic)</li>
+                        </ul>
+                      </div>
+                    </span>
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div class="modal__footer">
+              <a class="mdl-button mdl-button--colored mdl-js-button  modal__close">
+                Close
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal_contact_details" class="modal modal__bg">
+          <div class="modal__dialog">
+            <div class="modal__content">
+              <div class="modal__header">
+                <div class="modal__title">
+                  <h2 class="modal__title-text">Contact details</h2>
+                </div>
+              </div>
+              <div class="modal__text">
+                <p class="mdl-color-text--grey-800" style="margin-left: 15px;">
+                  Contact me, you can find me here:
+                </p>
+                <p>
+                  <ul class="demo-list">
+                    <li>
+                      <a href="mailto:supermarcos@gmail.com" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-decoration: none;">
+                        <i class="material-icons menu-icon-space">mail</i>e-mail
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://au.linkedin.com/in/marcosmoralesrodrigo" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-decoration: none;">
+                        <i class="material-icons menu-icon-space">link</i>LinkedIn
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/supermarcos" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-decoration: none;">
+                        <i class="material-icons menu-icon-space">link</i>Github
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/droidmarcos" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-decoration: none;">
+                        <i class="material-icons menu-icon-space">link</i>Twitter
+                      </a>
+                    </li>
+                  </ul>
+                </p>
+              </div>
+              <div class="modal__footer">
+                <a class="mdl-button mdl-button--colored mdl-js-button  modal__close">
+                  Close
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script src="libs/mdl/js/material.min.js"></script>
+    <script src="libs/material-modal/js/material-modal.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
