@@ -298,6 +298,9 @@ _:-ms-input-placeholder, :root .demo-graph {
   margin-bottom: 40px;
   z-index: 900;
 }
+h3 {
+  width: 100%;
+}
 @media screen and (max-width: 550px) {
   h3, h3 .material-icons {
     font-size: 14pt;
@@ -327,6 +330,7 @@ _:-ms-input-placeholder, :root .demo-graph {
   min-width: 300px;
 }
 .list {
+  padding: 0;
   list-style-type: none;
 }
 .demo-list {
@@ -336,4 +340,76 @@ _:-ms-input-placeholder, :root .demo-graph {
 }
 .nowrap {
   white-space: nowrap;
+}
+.date {
+  margin: 10px;
+  color: #AAB6F7;
+}
+.area {
+  color: #2B2B2B;
+}
+.institution {
+  color: #7C7E88;
+  font-style: italic;
+  margin-left: 50px;
+}
+.highlighted {
+  font-weight: bold;
+}
+.skillsgroup {
+  margin-bottom: 20px;
+}
+.skillsarea {
+  color: #2B2B2B;
+}
+.skillsgroup > .skills {
+  margin-left: 40px;
+  color: #7C7E88;
+}
+.experiencegroup {
+  margin-bottom: 20px;
+}
+.experiencegroup .dates {
+  color: #AAB6F7;
+}
+.experiencegroup .company {
+  color: #000000;
+}
+.experiencegroup > .position {
+  color: #2B2B2B;
+  font-style: italic;
+}
+.experiencegroup > .summary {
+  color: #7C7E88;
+  font-style: italic;
+}
+.experiencegroup > .position, .experiencegroup > .summary {
+  margin-left: 40px;
+}
+
+/* for narrow screens */
+@media screen and (max-width: 350px) {
+  .demo-list {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .specialwrap {
+    white-space: normal;
+  }
+  .modal__text {
+    padding: 10px;
+  }
+  .modal__text > p {
+    margin: 0px;
+  }
+  .institution {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .skillsgroup > .skills {
+    margin-left: 20px;
+  }
+  .experiencegroup > .position, .experiencegroup > .summary {
+    margin-left: 20px;
+  }
 }
