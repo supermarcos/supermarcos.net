@@ -1,0 +1,508 @@
+{
+  "basics": {
+    "name": "Marcos Morales Rodrigo",
+    "label": "IT and Software Developer",
+    "picture": "",
+    "email": "supermarcos@gmail.com",
+    "phone": "0406 525 061",
+    "website": "http://cv.supermarcos.net",
+    "summary": "Experienced and skilled IT and software developer.   I can describe myself as a highly polivalent IT professional, serious with my work, reliable, motivated, greatly experienced and skilled with superior attention to detail and proficent comunication skills to handle all the skateholder intercomunication needs. I have been working in many different industries, companies and businesses  adapting myself, acquiring new knowledge during the time and always, very soon,  disrupting the place and methodologies to push it further with my analytical,  creative and fresh point of view. The IT industry has been my natural environment for many years and that has given me the experience and ability to create, improve and learn always the cutting edge technologies using the most modern methodologies, tools and skills. I am the kind of worker that will always achieve results, aware about the deadlines, in the best way possible whenever it is inside of a team, leading the team or by myself. Obsessed with the perfection, scalability and usability of the final product and project I am involved, giving the final user the best possible service.",
+    "location": {
+      "address": "Brisbane",
+      "postalCode": "4207",
+      "city": "Brisbane",
+      "countryCode": "AU",
+      "region": "Queensland"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "droidmarcos",
+      "url": "https://twitter.com/droidmarcos"
+    },
+	{
+      "network": "GitHub",
+      "username": "supermarcos",
+      "url": "https://github.com/supermarcos"
+    },
+	{
+      "network": "LinkedIn",
+      "username": "Marcos Morales Rodrigo",
+      "url": "http://au.linkedin.com/in/marcosmoralesrodrigo"
+    }]
+  },
+  "work": [{
+    "company": "Focus Products pty ltd",
+    "position": "Software and Web developer / Module Analyst and Leader",
+    "website": "http://www.focusproducts.com.au",
+    "startDate": "2013-02-25",
+    "endDate": "",
+    "summary": "Leading several modules within the huge CRM/ERP system, I analysed and developed parts as virtual printers, water analysers, reporting and statistics systems, on field service systems, others tasks performed include data analysing, data migration, remote assistance and end user support.",
+    "highlights": [
+      ""
+    ]
+  },
+  {
+    "company": "Freelance and SmoothSymmerty",
+    "position": "Head developer",
+    "website": "http://www.smoothsymmetry.com.au",
+    "startDate": "2013-10-05",
+    "endDate": "2013-02-24",
+    "summary": "I was responsible for the design, develop, deployment and maintenance of several web sites, SEO strategies and hosting configuration.",
+    "highlights": [
+      ""
+    ]
+  },{
+    "company": "Indra Software Labs",
+    "position": "Senior Software Developer / Software Architect / UX/UI Designer ",
+    "website": "http://www.indra.es",
+    "startDate": "2011-08-16",
+    "endDate": "2012-08-31",
+    "summary": "At the begining I was only a Senior Developer, but soon I was moved to the UX/UI core team for the whole factory (400+ employees), in a couple of months I was promoted to help, advice and bring support for architecture design and develop for the whole factory in different projects.",
+    "highlights": [
+      ""
+    ]
+  },
+  {
+    "company": "GAE Informatica, SA",
+    "position": "Customer Support / Senior Software Developer / Analyst and Project leader ",
+    "website": "http://www.gaeinformatica.net",
+    "startDate": "2006-05-19",
+    "endDate": "2011-08-15",
+    "summary": "Leading the Software development for professional services as payroll and payslip calculation, taxation, Social Security taxation and grants, as well as design and develop of many internal systems for version control, package deployment and support tracking systems through our own ticketing system.",
+    "highlights": [
+      ""
+    ]
+  },
+  {
+    "company": "SET ici, SL",
+    "position": "Field technician / Networking / Junior Software Developer",
+    "website": "http://www.setici.net",
+    "startDate": "2003-03-03",
+    "endDate": "2006-05-18",
+    "summary": "Network instalation and administration, server configuration and admin, System installation and support and heaps of different tailored software development for factories (mainly food process) designing traceability systems for lots, bar codes and health requirements.",
+    "highlights": [
+      ""
+    ]
+  },
+  {
+    "company": "PuntoNET Informatica, SL",
+    "position": "Hardware / Field technician / Sysadmin / Shop and Customer care",
+    "website": "http://www.puntonetinformatica.com",
+    "startDate": "2002-06-22",
+    "endDate": "2003-03-02",
+    "summary": "POS sale, post sale support, on-site support, remote support, customer relationship, system administration, network deployment and maintenance, hardware and device repair...",
+    "highlights": [
+      ""
+    ]
+  }],
+  "education": [{
+    "institution": "Australian Computer Society",
+    "area": "Developer Programmer Advanced Diploma (ANZSCO Code 261312) ",
+    "studyType": "Advanced Diploma",
+    "startDate": "2015-02-01",
+    "endDate": "2015-03-01",
+    "gpa": "Mayor",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "Coursera (John Hopkins University)",
+    "area": "Data scientist, data analysis with R",
+    "studyType": "Certification",
+    "startDate": "2015-09-01",
+    "endDate": "2015-12-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "Indra Software Labs, SL",
+    "area": "UI/UX and Front End development",
+    "studyType": "Specialization",
+    "startDate": "2012-05-01",
+    "endDate": "2012-06-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "Master D (online platform)",
+    "area": "Android Mobile Development Master Course",
+    "studyType": "Certification",
+    "startDate": "2011-03-01",
+    "endDate": "2011-07-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "Triparty Foundation",
+    "area": "Java SE and J2EE",
+    "studyType": "Course",
+    "startDate": "2010-03-01",
+    "endDate": "2010-05-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "GAE Informatica, SA",
+    "area": "MVC with ASP.NET",
+    "studyType": "Training course",
+    "startDate": "2010-10-01",
+    "endDate": "2010-11-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "GAE Informatica, SA",
+    "area": "Ms SQL Server Administration and Tunning",
+    "studyType": "Training course",
+    "startDate": "2009-10-01",
+    "endDate": "2009-10-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "GAE Informatica, SA",
+    "area": "Ms Windows Workstation and Server Administration",
+    "studyType": "Training course",
+    "startDate": "2008-09-01",
+    "endDate": "2008-12-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "Triparty Foundation",
+    "area": "Payroll and payslip calculation",
+    "studyType": "Course",
+    "startDate": "2007-03-01",
+    "endDate": "2007-05-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "Linux.ORG",
+    "area": "Linux System Administration",
+    "studyType": "Course",
+    "startDate": "2006-02-01",
+    "endDate": "2006-04-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "3D Design and development with 3D Studio Max",
+    "area": "Professional Training and Skills Don Benito",
+    "studyType": "Training Course",
+    "startDate": "2005-05-01",
+    "endDate": "2005-08-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "SET ici, SL",
+    "area": "Bintec/Avaya router configuration and administration",
+    "studyType": "Training Course",
+    "startDate": "2004-03-01",
+    "endDate": "2004-04-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "SET ici, SL - SELT@ Madrid",
+    "area": "SELT@ PBX/IPX VoIP / Asterisk configuration and administration",
+    "studyType": "Training Course",
+    "startDate": "2003-02-01",
+    "endDate": "2003-04-01",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  },
+  {
+    "institution": "IES Suarez de Figueroa (Zafra, Badajoz, Spain)",
+    "area": "Superior Professional Degree on IT Systems Administration",
+    "studyType": "Superior Professional Degree",
+    "startDate": "2000-09-05",
+    "endDate": "2002-06-21",
+    "gpa": "Course",
+    "courses": [
+      ""
+    ]
+  }],
+  "skills": [{
+    "name": "Programming languages",
+    "level": "Advanced",
+    "keywords": [
+      "HTML",
+	  "HTML5",
+	  "XHTML",
+      "CSS",
+	  "CSS3",
+      "JavaScript",
+	  "PHP",
+	  "ASP",
+	  "C#.NET",
+	  "Python",
+	  "Java",
+	  "Basic",
+	  "Visual Basic 6",
+	  "Visual FoxPro 7",
+	  "Vb.NET",
+	  "JSE",
+	  "J2EE",
+	  "C",
+	  "C++",
+	  "R",
+	  "Bash and Shell",
+	  "SQL / T-SQL"
+    ]
+  },
+  {
+    "name": "Web site and web app development (full stack)",
+    "level": "Advanced",
+    "keywords": [
+      "Server side rendering",
+	  "Client side RIA",
+	  "Two way binding",
+      "Reactive techniques",
+	  "Templating",
+      "Responsive design",
+	  "Material design",
+	  "Touch friendly design"
+    ]
+  },
+  {
+    "name": "Technologies, Frameworks and SDKs",
+    "level": "Advanced",
+    "keywords": [
+      ".NET framework",
+	  "DevXpress",
+	  "Android SDK",
+      "jQuery / ExtJS",
+	  "OAuth / OAuth2",
+      "Knockout / Backbone",
+	  "Angular / Angular2",
+	  "ReactJS",
+	  "Bootstrap / MDL",
+	  "RDBMS / ODBMS / NoSQL",
+	  "Phonegap / Ionic / Framework7",
+	  "SOAP / XML / JSON / WebApp2",
+	  "Jinja / Ferris",
+	  "Nodejs / npm / pip"
+    ]
+  },
+  {
+    "name": "Desktop development",
+    "level": "Advanced",
+    "keywords": [
+      "Ms Window",
+	  "Linux",
+	  "Mac"
+    ]
+  },
+  {
+    "name": "Mobile development",
+    "level": "Advanced",
+    "keywords": [
+      "Android",
+	  "Windows Phone",
+	  "iOS"
+    ]
+  },
+  {
+    "name": "Data scientist, data analysis and data warehousing",
+    "level": "Advanced",
+    "keywords": [
+      "SQL / T-SQL",
+	  "Stored Procedures",
+	  "Monitoring tools",
+      "SQLite",
+	  "MySQL / MariaDB",
+      "SQL Server",
+	  "XML",
+	  "JSON",
+	  "SpreadSheets",
+	  "Plain and Sequential files",
+	  "R analysis",
+	  "Plot presentations",
+	  "Python data analysis (PANDAS)"
+    ]
+  },
+  {
+    "name": "IDEs and version control tools",
+    "level": "Master",
+    "keywords": [
+      "Ms Visual Studio",
+	  "JetBrains",
+	  "Eclipse",
+      "PowrShell",
+	  "Sublime",
+      "Atom",
+	  "GitHub",
+	  "BitBucket",
+	  "Jira",
+	  "CVS",
+	  "SVN",
+	  "Mercurial",
+	  "Git"
+    ]
+  },
+  {
+    "name": "Methodologies",
+    "level": "Professional",
+    "keywords": [
+      "Waterfall",
+	  "Agile",
+	  "SCRUMM",
+      "Project management",
+	  "Team management",
+      "Prince2",
+	  "Feature Driven Development",
+	  "Test Driven Development"
+    ]
+  },
+  {
+    "name": "Server admin and Database admin systems",
+    "level": "Professional",
+    "keywords": [
+      "Ms Windows",
+	  "Linux / Unix",
+	  "Mac OS",
+      "Novell Netware",
+	  "Active Directory / ldap",
+      "CouchDB",
+	  "VistaDB",
+	  "MongoDB",
+	  "ndb",
+	  "Big Query",
+	  "NoSQL",
+	  "LAMP",
+	  "WAMP",
+	  "MEAN",
+	  "Apache",
+	  "nGinx",
+	  "IIS",
+	  "Docker",
+	  "Virutalization",
+	  "MySQL / MariaDB",
+	  "SQLite",
+	  "SQL Server"
+    ]
+  },
+  {
+    "name": "Hardware and networking skills",
+    "level": "Advanced",
+    "keywords": [
+      "Hardware config, admin and fixing",
+	  "Architecture design",
+	  "Networking",
+      "Cable and topology structures",
+	  "VoIP",
+      "Phone systems",
+	  "Router configuration",
+	  "Firewall",
+	  "Frame Relay",
+	  "VPN",
+	  "Domain configuration and administration"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Advanced (IELTS 7.5)"
+  },
+  {
+    "language": "Spanish",
+    "fluency": "Native"
+  },
+  {
+    "language": "Portuguese",
+    "fluency": "Basic (4 level EOI)"
+  }],
+  "interests": [{
+    "name": "Cycling"
+  },
+  {
+    "name": "Bush walking"
+  },
+  {
+    "name": "Swimming"
+  },
+  {
+    "name": "Soccer"
+  },
+  {
+    "name": "DIY electronics"
+  },
+  {
+    "name": "Painting and drawing"
+  }],
+  "references": [{
+    "name": "Kent Tregenza",
+    "reference": "Product Developer / Software Developer / Team Leader at Focus Products PTY LTD",
+	"phone": "0406 125 146",
+	"email": "kent@focusproducts.com.au",
+	"www": "http://www.focusproducts.com.au"
+  },
+  {
+    "name": "Steven Humphris",
+    "reference": "CEO and owner at Focus Products PTY LTD",
+	"phone": "0411 623 619",
+	"email": "steven@focusproducts.com.au",
+	"www": "http://www.focusproducts.com.au"
+  },
+  {
+    "name": "Steven Zigut",
+    "reference": "Cofounder at SmoothSymmetry",
+	"phone": "0412 589 854",
+	"email": "steven@smoothsymmetry.com",
+	"www": "https://www.smoothsymmetry.com"
+  },
+  {
+    "name": "Inmaculada Gonzalez",
+    "reference": "CEO and cofounder at Indra Software Labs SL",
+	"phone": "",
+	"email": "igonzalez@indra.es",
+	"www": "http://www.indra.es"
+  },
+  {
+    "name": "Carlos Gallego",
+    "reference": "CEO at GAE Informatica SA",
+	"phone": "",
+	"email": "carlos@gaeinformatica.net",
+	"www": "http://www.gaeinformatica.net"
+  },
+  {
+    "name": "Servando Saavedra",
+    "reference": "CEO at SET ici SL",
+	"phone": "",
+	"email": "servando@setici.net",
+	"www": "http://www.setici.net"
+  },
+  {
+    "name": "Rocio Montejo",
+    "reference": "Exercise Scientist / Physical Rehabilitation / health Coordinator",
+	"phone": "0406 342 174",
+	"email": "info@pumpyourhealth.com",
+	"www": "http://www.pumpyourhealth.com"
+  }]
+}
