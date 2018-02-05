@@ -85,6 +85,9 @@ $(function() {
             items: 1,
             nav: true,
             dots: false,
+            loop: true,
+            autoplay: false,
+            autoplayTimeout: 7000,
             navText: ['<span class="ti-arrow-left"></span>', '<span class="ti-arrow-right"></span>']
         });
     }

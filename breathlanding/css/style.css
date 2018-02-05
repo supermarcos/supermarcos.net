@@ -441,12 +441,52 @@ header {
 
 /*  TESTIMONIALS
 ----------------------*/
-
+/*
 .owl-carousel .owl-item img.client-img {
     width: 110px;
     margin: 30px auto;
     border-radius: 50%;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+*/
+
+.owl-carousel .owl-item div.client-img {
+    width: 110px;
+    height: 110px;
+    margin: 30px auto;
+    border-radius: 50%;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+}
+
+.owl-carousel .owl-item div.client-img.client1 {
+    background-image: url('../images/testimonials/ryan-hipwood.jpg');
+}
+
+.owl-carousel .owl-item div.client-img.client2 {
+    background-image: url('../images/testimonials/stuart-mckenzie.jpg');
+}
+
+.owl-carousel .owl-item div.client-img.client3 {
+    background-image: url('../images/testimonials/david-morgan.jpg');
+}
+
+.owl-carousel .owl-item div.client-img.client4 {
+    background-image: url('../images/testimonials/brett-livingston.jpg');
+}
+
+.owl-carousel .owl-item div.client-img.client5 {
+    background-image: url('../images/testimonials/james-roberts.jpg');
+}
+
+.owl-carousel .owl-item div.client-img.client6 {
+    background-image: url('../images/testimonials/elliott-hammond.jpg');
+}
+
+.owl-carousel .owl-item div.client-img.client7 {
+    background-image: url('../images/testimonials/jim-luts.jpg');
 }
 
 .testimonials-single {
