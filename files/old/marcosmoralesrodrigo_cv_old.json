@@ -21,22 +21,11 @@
     }]
   },
   "work": [{
-    "company": "CQUniversity",
-    "position": "Analyst / Software Developer",
-    "website": "http://www.cqu.edu.au",
-    "startDate": "2017-12-04",
-    "endDate": "",
-    "summary": "Senior analyst developer, advisor, QA developer and sometimes performing tasks as internal consultant",
-    "highlights": [
-      ""
-    ]
-  },
-  {
     "company": "Brown Paper Bag",
     "position": "Software and FullStack developer",
     "website": "http://www.brownpaperbag.com.au",
     "startDate": "2016-06-13",
-    "endDate": "2017-11-24",
+    "endDate": "",
     "summary": "FullStack developer using cutting-edge technologies like Angular2, AWS... etc",
     "highlights": [
       ""
