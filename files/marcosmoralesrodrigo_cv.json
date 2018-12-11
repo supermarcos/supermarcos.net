@@ -21,6 +21,17 @@
     }]
   },
   "work": [{
+    "company": "MOVUS",
+    "position": "Senior FullStack Software Developer",
+    "website": "http://www.MOVUS.com.au",
+    "startDate": "2018-06-25",
+    "endDate": "2018-12-22",
+    "summary": "Working mainly within the mobile and web team. Developing and improving React Native mobile applications, writting good coverage of unit testing, ReactJs dashboards and some integrations with different parts of the Business Intelligence data sources. QA and Peer Code Review. Implementation of new methodologies and processes (Agile/SCRUM, gitFlow, supporting QA and testing, etc...)",
+    "highlights": [
+      ""
+    ]
+  },
+  {
     "company": "CQUniversity",
     "position": "Analyst / Software Developer",
     "website": "http://www.cqu.edu.au",
